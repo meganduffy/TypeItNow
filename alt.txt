@@ -1,0 +1,27 @@
+	<!-- <div class="home-content">
+		<h1>{{title}}</h1>
+
+		<div class="services">
+			<h2>Services</h2>
+			<p>Type It Now is a transcription service provider. We offer accurate audio and video transcription at a fair price. Visit our How it works page for information on how to place an order.</p>
+
+			<p>Our rates are competitive. There’s over a 20% discount for students, we charge €0.90 per audio minute.</p>
+
+			<p>Standard turnaround is 3 – 4 business days. We offer a 24-hour or 48-hour turnaround as well, but additional rates apply.  See Pricing for more details.</p>
+		</div>
+
+		<div class="transcription">
+			<h2>Transcription</h2>
+			<p>We do academic, medical, legal, technical and personal transcription. All transcripts are typed manually by experienced transcriptionists and are reviewed to ensure 99% accuracy. Once your audio/video files are transcribed and reviewed, the transcripts are then formatted in a very clean and easy-to-read Word document.</p>
+
+			<p>Our transcripts are usually transcribed as intelligent verbatim, which means ums, ahs, ers, false starts and other filler words are excluded from the finished transcript, resulting in a cleaner read. We also do true verbatim transcripts if requested, but additional rates apply.</p>
+
+			<p>Our transcription team accepts more or less every type of audio and video file including: M4A, MP3, WMV, MP4,WAV,  MOV, AVI, VOB, AMR, WMA, OGG, and AIF.</p>
+		</div>
+
+		<div class="home-contact">
+			<p>If you have any questions or would like a quote, <a href="#/contact">Contact us</a>.
+
+			<div class="btn btn-primary btn-lg home-btn">Contact</div>
+		</div> -->
+	<!-- </div> -->

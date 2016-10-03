@@ -1,0 +1,42 @@
+.home .home-header {
+	background:url(../media/img/lone-mac-lg-crop.jpg) center;
+	background-size:cover;
+	height:90vh;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items:center;
+	justify-content: center;
+}
+
+.home .home-header .home-header-txt {
+	display:flex;
+	flex-flow:column nowrap;
+	justify-content: center;
+	align-items: center;
+	flex:2;
+	text-align:center;
+}
+
+.home .home-header .home-header-txt h1 {
+	margin-top:0;
+	font-family:Arvo;
+	font-size:7.5vw;
+	color:white;
+	-webkit-text-stroke:1px black;
+}
+
+.home .home-header .home-header-txt p {
+	font-family:Arvo;
+	color:black;
+	font-size:1.5vw;
+	padding-top:20px;
+}
+
+.home .home-header .home-header-txt a {
+	font-size:1.7vw;
+	margin-top:20px;
+}
+
+.home .home-header .home-header-space {
+	flex:2.5;
+}
