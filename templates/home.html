@@ -3,11 +3,70 @@
 	<div class="home-header">
 		<div class="home-header-txt">
 			<h1>{{title}}</h1>
-			<p>{{subTitle}}</p>
-			<a class="btn btn-lg btn-default" href="#/contact">Get A Quote</a>
+			<p>{{subTitle}}<span>|</span></p>
+			<a class="btn btn-lg btn-default" href="#/contact" ng-mouseover="hoverIn()" ng-mouseleave="hoverOut()">Get A Quote</a>
 		</div>
-		<div class="home-header-space"></div>
+		<div class="home-header-computer">
+			<div id="computer-screen" ng-show="hoverComputer"><p>From €0.99 per audio minute</p></div>
+		</div>
 	</div>
+
+	<div class="home-body">
+	
+		<div class="transcription">
+			<div class="icon-box">
+				<div>
+					<div class="icon"></div>
+					<p>Transcription</p>
+				</div>
+			</div>
+
+			<div class="txt-box">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+
+		<div class="upload">
+			<div class="icon-box">
+				<div>
+					<div class="icon"></div>
+					<p>Upload</p>
+				</div>
+			</div>
+			<div class="txt-box">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+
+		<div class="contact">
+			<div class="icon-box">
+				<div>
+					<div class="icon"></div>
+					<p>Contact</p>
+				</div>
+			</div>
+			<div class="txt-box">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+
+	</div>
+
 </div>
 
 

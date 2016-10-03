@@ -1,3 +1,37 @@
+/*-------------------------------------------------------------------------
+---------------------------------------------------------------------------*/
+/*INDEX*/
+/*
+1. Home Style
+	1.1 Home Header Style
+	1.2 Home Body Style*/
+
+/*-------------------------------------------------------------------------
+---------------------------------------------------------------------------*/
+/*IMAGE INDEX*/
+/*
+Home Header => lone-mac-lg-crop.jpg */
+
+/*-------------------------------------------------------------------------
+---------------------------------------------------------------------------*/
+/*COLOR PALLETE*/
+/*
+#AEC6CF - Pastel Cyan Blue
+#FF6961 - Pastel Red
+#77DD77 - Pastel Green
+#CFCFC4 - Pastel Gray
+#B39EB5 - Pastel Purple
+*/
+
+/*-------------------------------------------------------------------------
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------*/
+
+/*~1. Home Style~*/
+
+/*- - - - - - - - - - - - - -*/
+/*~1.1 Home Header Style~*/
+
 .home .home-header {
 	background:url(../media/img/lone-mac-lg-crop.jpg) center;
 	background-size:cover;
@@ -23,6 +57,10 @@
 	font-size:7.5vw;
 	color:white;
 	-webkit-text-stroke:1px black;
+	white-space:nowrap;
+	overflow: hidden;
+	/*ANIMATION*/
+	animation: type 1.7s steps(60, end);
 }
 
 .home .home-header .home-header-txt p {
@@ -30,6 +68,35 @@
 	color:black;
 	font-size:1.5vw;
 	padding-top:20px;
+	width:100%;
+	white-space:nowrap;
+	overflow: hidden;
+	/*ANIMATION*/
+	animation: type2 4s steps(60, end);
+}
+
+.home .home-header .home-header-txt span {
+	/*ANIMATION*/
+	animation: blink 1s infinite;
+}
+
+/*ANIMATION*/
+
+@keyframes type {
+	0%{width:0;}
+	50%{width:60%;}
+	100%{width:100%;}
+}
+
+@keyframes type2 {
+	0%{width:0; visibility: hidden;}
+	40%{width:0;}
+	50%{width:20%;}
+	100%{width:100%;}
+}
+
+@keyframes blink {
+	to {opacity:.0;}
 }
 
 .home .home-header .home-header-txt a {
@@ -37,6 +104,155 @@
 	margin-top:20px;
 }
 
-.home .home-header .home-header-space {
+.home .home-header .home-header-computer {
+	display:flex;
+	flex-flow:row nowrap;
+	justify-content: center;
+	align-items:center;
 	flex:2.5;
+}
+
+.home .home-header .home-header-computer #computer-screen {
+	height:20vw;
+	width:35vw;
+}
+
+.home .home-header .home-header-computer #computer-screen p {
+	color:white;
+	font-size:4vw;	
+}
+
+/*- - - - - - - - - - - - - -*/
+/*~1.2 Home Body Style~*/
+
+.home .home-body {
+	display:flex;
+	flex-flow:column nowrap;
+	align-items:center;
+	justify-content:center;
+	margin-top:8vh;
+	font-family:Arvo;
+}
+
+.home .home-body .transcription, .upload, .contact {
+	display:flex;
+	flex-flow:row wrap;
+	align-items:center;
+	justify-content: center;
+	margin:2.5vh auto;
+}
+
+.home .home-body .icon-box {
+	flex:1;
+}
+
+.home .home-body .upload .icon-box {
+	order:2;
+}
+
+.home .home-body .icon-box div {
+	border-radius:100%;
+	text-align:center;
+	margin: auto auto;
+	height:30vh;
+	width:30vh;
+	display:flex;
+	flex-flow:column nowrap;
+	justify-content: center;
+	align-items: center;
+	color:white;
+}
+
+.home .home-body .icon-box > div {
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);;
+}
+
+.home .home-body .icon-box div .icon {
+	height:5vw;
+	width:5vw;
+	border-radius:0;
+	margin:0;
+}
+
+.home .home-body .icon-box p {
+	font-size:1.7vw;
+}
+
+.home .home-body .transcription .icon-box div {
+	background-color:#AEC6CF;
+}
+
+.home .home-body .transcription .icon-box > div:hover {
+	background-color:white;
+	border:7px solid #AEC6CF;
+	color:#AEC6CF;
+}
+
+.home .home-body .transcription .icon-box div .icon {
+	background:url(../media/icons/list.png) center;
+	background-size:cover;
+}
+
+.home .home-body .transcription .icon-box div:hover .icon {
+	background:url(../media/icons/listblue.png) center;
+	background-size:cover;
+}
+
+.home .home-body .upload .icon-box div {
+	background-color:#FF6961;
+}
+
+.home .home-body .upload .icon-box > div {
+	/*box-shadow: -5px 5px rgba(0,0,0,0.3);*/
+	box-shadow: 0px 5px 5px 5px  rgba(0,0,0,0.3);
+}
+
+.home .home-body .upload .icon-box > div:hover {
+	background-color:white;
+	border:7px solid #FF6961;
+	color:#FF6961;
+}
+
+.home .home-body .upload .icon-box div .icon {
+	background:url(../media/icons/rocket.png) center;
+	background-size:cover;
+}
+
+.home .home-body .upload .icon-box div:hover .icon {
+	background:url(../media/icons/rocketred.png) center;
+	background-size:cover;
+}
+
+.home .home-body .contact .icon-box div {
+	background-color:#77DD77;
+}
+
+.home .home-body .contact .icon-box > div:hover {
+	background:white;
+	border:7px solid #77DD77;
+	color:#77DD77;
+}
+
+.home .home-body .contact .icon-box div .icon {
+	background:url(../media/icons/address-book.png) center;
+	background-size:cover;
+}
+
+.home .home-body .contact .icon-box div:hover .icon {
+	background:url(../media/icons/address-bookgreen.png) center;
+	background-size:cover;
+}
+
+.home .home-body .txt-box {
+	flex:3;
+	border-radius:5%;
+	margin:auto 2vw;
+}
+
+.home .home-body .upload .txt-box {
+	text-align:right;
+}
+
+.home .home-body .txt-box p {
+	width:90%;
 }

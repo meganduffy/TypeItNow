@@ -1,0 +1,4 @@
+//TypeItNow Production Notes
+
+On .home "get a quote button":hover -> background screen lights up with .99cent per audio minute.
+On .computer:hover -> background screen lights up with .99c per audio minute, a href="#/contact"
